@@ -1,0 +1,24 @@
+{
+  "name": "shadowsocks-node",
+  "version": "1.0.0",
+  "description": "Node.js implementation of Shadowsocks protocol",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:local": "node src/bin/ss-local.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shadowsocks",
+    "proxy",
+    "socks5"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "crypto": "^1.0.1",
+    "socks": "^2.7.1",
+    "winston": "^3.10.0"
+  }
+} 
