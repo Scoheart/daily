@@ -115,6 +115,7 @@ class ShadowsocksLocal {
     let handshakeBuffer = Buffer.alloc(0);
     
     const handshakeHandler = (data) => {
+      console.log('handshakeHandler', data);
       // Accumulate data
       handshakeBuffer = Buffer.concat([handshakeBuffer, data]);
       

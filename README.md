@@ -28,10 +28,12 @@ Or with direct node command:
 node src/bin/ss-local.js -s 127.0.0.1 -p 8388 -k "your-password" -m aes-256-gcm -l 1080
 
 
-node src/bin/ss-local.js -s 47.129.201.185 -p 8388 -k "l5RtIYVSy3IH" -m aes-256-gcm -l 1080
+node src/bin/ss-local.js -s 52.77.225.164 -p 8388 -k "12345678" -m aes-256-gcm -l 8088
+node src/bin/ss-local.js -s 52.77.225.164 -p 8388 -k "12345678" -m aes-256-gcm -l 1080
 ```
 
 curl -x socks5://127.0.0.1:1080 -v http://ip.sb
+curl -x socks5://127.0.0.1:8088 -v http://ip.sb
 
 curl -x socks5://127.0.0.1:7890 -v http://ip.sb
 
